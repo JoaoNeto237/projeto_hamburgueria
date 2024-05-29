@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#1f1517bb;
+    
+    min-height: 100vh;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+}
+header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    
+}
+.Telefone{
+    padding: 2px;
+    color: white;
+    background-color: #1f15173a;
+    border-radius: 7px;
+    width: 100px;
+    height: 50px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.Telefone:hover{
+    transform: scale(1.1);
+}
+.pedido_pai{
+    display: flex;
+    justify-content: center;
+    width: 98vw;
+    height: 400px;
+    display: flex;
+}
+.paragrafo li{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.paragrafo p{
+    color: white;
+    display: inline-block;
+}
+.pedido{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    background-color: rgba(172, 161, 161, 0.897);
+    width: 500px;
+    height: 350px;
+    border-radius: 30px;
+    
+}
+.pedido  h1{
+     text-align: center;
+     font-size: 1em;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: bold;
+     color: black;
+     padding-top: 10px;
+}
+.pedido , input[type="checkbox"]{
+    color: black;
+    font-family: cursive;
+    padding-left: 20px;
+}
+ul{
+    list-style-type: none;
+}
+ul, li{
+    font-size: 1em;
+    text-justify: auto;
+}
+input[type="number"]{
+    width: 30px;
+    height: 15px;
+}
+.botao_pedido{
+    display: flex;
+    justify-content: center;
+}
+.botao{
+    padding: 10px 70px;
+    color: white;
+    background-color: #1f15173a;
+    border-radius: 7px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.botao:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+.rodape{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.rodape > img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.bt_footer{
+    padding: 2px;
+    color: white;
+    background-color: #1f15173a;
+    border-radius: 7px;
+    width: 100px;
+    height: 70px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+}
+.bt_footer:hover{
+    transform: scale(1.1);
+}
+.img_footer  img{
+    width:50px ;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+.img_footer  img:hover{
+    
+    transform: scale(1.1);
+}

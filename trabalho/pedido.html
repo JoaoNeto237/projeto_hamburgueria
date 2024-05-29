@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburgueria</title>
+    <link rel="stylesheet" href="estilo_pedido.css">
+    <link rel="shortcut icon" href="../Arquivo/Logo escura.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <section class="header">
+            <img src="../Arquivo/Logo escura.png" alt="imagem logo">
+            <a href="tel:+0800 880 6767"><button class="Telefone">Fale conosco</button></a>
+        </section>
+        <br> <br>
+        <hr>
+        <br> <br>
+    </header>
+    <main>
+        <div class="pedido_pai">
+            <section class="pedido">
+                <ul class="lanche">
+                    <ul class="paragrafo">
+                        <li>Faça seu pedido aqui!</li><br>
+                    </ul><br>
+                    <li><input type="number" name="X-Picanha" id="X-Picanha" value="0">  <label for="X-Picanha">X-Picanha</label></li>
+                    <li><input type="number" name="X-Bacon" id="X-Bacon" value="0">  <label for="X-Bacon">X-Bacon</label></li>
+                    <li><input type="number" name="X-Salada" id="X-Salada" value="0">  <label for="X-Salada">X-Salada</label></li>
+                    <li><input type="number" name="Coxinha" id="Coxinha" value="0">  <label for="Coxinha">Coxinha de frango</label></li>
+                    <li><input type="number" name="Combo2" id="Combo2" value="0">  <label for="Combo2">Combo 2x X-Picanha</label></li>
+                    <li><input type="number" name="Combo3" id="Combo3" value="0">  <label for="Combo3">Combo 3x X-Picanha</label></li>
+                    <li><input type="number" name="ComboFritas" id="ComboFritas" value="0">  <label for="ComboFritas">Combo X-Picanha + Fritas</label></li>
+                    <li><input type="number" name="ComboCoxinha" id="ComboCoxinha" value="0">  <label for="ComboCoxinha">Combo X-Picanha + Coxinha</label></li><br><br><br>
+                </ul>
+                <ul class="preco">
+                    <li><label for="X-Picanha">R$ 20,00</label></li>
+                    <li><label for="X-Bacon">R$ 25,00 (5% OFF)</label></li>
+                    <li><label for="X-Salada">R$ 15,00 (5% OFF)</label></li>
+                    <li><label for="Coxinha">R$ 07,00</label></li>
+                    <li><label for="Combo2">R$ 50,00 (10% OFF)</label></li>
+                    <li><label for="Combo3">R$ 75,00 (30% OFF)</label></li>
+                    <li><label for="ComboFritas">R$ 35,00 (10% OFF)</label></li>
+                    <li><label for="ComboCoxinha">R$ 32,00 (10% OFF)</label></li>
+                </ul>
+            </section>
+        </div>
+        <div class="botao_pedido">
+            <section>
+                <button id="botao_confirmar_pedido" onclick="ConfirmarPedido()" class="botao">Confirmar Pedido</button>
+            </section>
+        </div>
+    </main>
+    <br> <br> <hr>
+    <footer>
+        <section class="rodape">
+            <img src="../Arquivo/Logo escura.png" alt="">
+            <div><a href="https://www.betfair.com/sport/" target="_blank"><button class="bt_footer">Quem Somos</button></a></div>
+            <div><a href="https://www.betfair.com/sport/" target="_blank"><button class="bt_footer">Contato</button></a></div>
+            <div class="img_footer"><a href="https://www.instagram.com/estacio_brasil/" target="_blank"><img src="../Arquivo/logo2.png" alt="instagram"></a></div>
+            <div class="img_footer"><a href="https://wa.me/5511999999999" class="whatsapp-button" target="_blank">
+                <img src="../Arquivo/logo1.avif" alt="WhatsApp">
+            </a></div>
+        </section>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

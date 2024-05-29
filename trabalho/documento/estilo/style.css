@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#1f1517bb;
+    
+    min-height: 100vh;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+}
+header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    
+}
+.Telefone{
+    padding: 2px;
+    color: white;
+    background-color: #1f15173a;
+    border-radius: 7px;
+    width: 100px;
+    height: 50px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.Telefone:hover{
+    transform: scale(1.1);
+}
+.produtos{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    column-count: 4;
+    row-gap: 15px;
+    width: 80%;
+    margin-left: 100px;
+
+}
+.produtos img{
+    display: flex;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.produtos  p{
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+.btao{
+    display: flex;
+    justify-content: center;
+}
+.btao > a > .botao{
+    padding: 10px 70px;
+    color: white;
+    background-color: #1f15173a;
+    border-radius: 7px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.botao:hover{
+    transform: scale(1.1);
+}
+.endereco{
+    display: flex;
+    justify-content: center;
+}
+.maps{
+    padding: 10px 70px;
+    color: white;
+    background-color: #1f15173a;
+    border-radius: 7px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.maps:hover{
+    transform: scale(1.1);
+}
+.rodape{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.rodape > img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.bt_footer{
+    padding: 2px;
+    color: white;
+    background-color: #1f15173a;
+    border-radius: 7px;
+    width: 100px;
+    height: 70px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+}
+.bt_footer:hover{
+    transform: scale(1.1);
+}
+.img_footer  img{
+    width:50px ;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+.img_footer  img:hover{
+    
+    transform: scale(1.1);
+}
